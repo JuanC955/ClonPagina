@@ -1,6 +1,5 @@
  body {
     margin: 0%;
-    background-image: url('./Img/GIXXER\ \ 250\ Y\ SF\ fondo.jpg');
     font-size: 16px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -39,15 +38,10 @@ ul li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 0%;
 }
 
-/*Linea debajo del input no la e colocado*/
-.Buscar_inicio {
-    border: 1px solid;
-    height: 60px;
-}
 
 input {
     color: white;
@@ -57,16 +51,4 @@ input {
     margin: 23px 60px;
     line-height: 20px;
     border: none;    
-}
-
-.img_redes {
-    position: absolute;    
-    left: 95%;
-    margin: 30px 5px;
-}
-
-.logo_face, .logo_insta, .logo_tiktok, .logo_x, .logo_what, .logo_yt {
-    width: 25px;
-    height: 25px;
-    margin: 10px;
 }
