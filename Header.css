@@ -7,6 +7,7 @@
 }
 
 header {
+    justify-content: space-around;
     display: flex;
     align-items: center;
     border-radius: 4px;
@@ -24,31 +25,26 @@ header {
     line-height: 20px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 ul li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1A2F44;
     margin: 0%;
 }
 
 
 input {
-    color: white;
+    color: black;
     background-color: transparent;
-    width: 100px;
+    width: 150px;
     height: 28px;
     margin: 23px 60px;
-    line-height: 20px;
-    border: none;    
+    border: none;
+    border-bottom: 1px solid black; 
 }
