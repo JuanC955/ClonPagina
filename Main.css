@@ -4,15 +4,42 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-}
-
-.main1 {
-    display: flex;
+    font-size: 18px;
     
 }
+/* <!-- caja padre --> */
 
-.imge-main1 {
+.main1 {
+    background-color: #E4E6E6;
+    display: flex;
+}
+
+.caja1 {
+    display: flex;
+    left: 10%;
+    height: 600px;
     border: 1px solid black;
-    width: 60%;
-    height: 100%;
+    margin-top: 50px;
+}
+
+
+
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.valor-moto {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.valor-moto .desde {
+    position: absolute;
+    background-color: aqua;
+    margin: 1px solid black;
+
 }
