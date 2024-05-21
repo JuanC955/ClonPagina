@@ -54,9 +54,19 @@
 }
 
 .end-line {
-    /* border: 1px solid black; */
     background-color: #E4E6E6;
+    display: flex;
+    
 }
+
+.end-line p{
+    font-size: 10px;
+}
+
+.modelo p{
+    font-size: 15px;
+}
+
 
 .items {
     display: flex;
@@ -155,8 +165,88 @@
 }
 
 .galeria_fotos{
-    width: 1349px;
-    height: 667px;
+    width: 1370px;
+    height: 710px;
     line-height: 22.8571px;
     padding: 40px 0px 50px;
+}
+
+.datos_tecnicos{
+    background-color: #1A2F44;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+}
+
+.datos_tecnicos h3{
+    display: block;
+    color: white;
+    font-size: 15px;
+
+}
+
+.datos_tecnicos li{
+    display: block;
+    color: #E4E6E6;
+    font-size: 13px;
+}
+
+.txt-1{
+    display: block;
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+}
+
+.datos_tecnicos img{
+    text-align: center;
+    line-height: 22.8571px;
+    height: 38px;
+    width: 49px;
+}
+
+.tecnicos1{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+
+.tecnicos2{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+.tecnicos3{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+.tecnicos4{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+.tecnicos5{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+.tecnicos6{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+.tecnicos7{
+    display: flex;
+    margin: 0px 0px 50px;
+    padding: 0px 15px;
+}
+
+.captcha {
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    background-image: url(/Img/img.main1/img_fondo.jpg);
 }
