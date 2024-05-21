@@ -9,9 +9,9 @@
 }
 /* <!-- caja padre --> */
 
-.main1 {
-    background-color: #E4E6E6;
+.contenedor1{
     display: flex;
+    background-color: gray;
 }
 
 .caja1 {
@@ -42,4 +42,66 @@
     background-color: aqua;
     margin: 1px solid black;
 
+}
+
+#img1{
+    height: 220px;
+    width: 270px;
+}
+
+#img2{
+    width: 405px;
+    height: 220px;
+}
+
+#img3{
+    width: 270px;
+    height: 220px;
+}
+
+#img4{
+    width: 405px;
+    height: 220px;
+}
+
+#img5{
+    width: 405px;
+    height: 220px;
+}
+
+#img6{
+    width: 270px;
+    height: 220px;
+}
+
+#img7{
+    width: 405px;
+    height: 220px;
+}
+
+#img8{
+    width: 270px;
+    height: 220px;
+}
+
+#img9{
+    width: 270px;
+    height: 220px;
+}
+
+#img10{
+    width: 405px;
+    height: 220px;
+}
+
+#img11{
+    width: 270px;
+    height: 220px;
+}
+
+.galeria_fotos{
+    width: 1349px;
+    height: 667px;
+    line-height: 22.8571px;
+    padding: 40px 0px 50px;
 }
